@@ -9,8 +9,9 @@ class Solution {
     			start = h[1];
     			res = Math.max(res, (i - start) * h[0]);
     		}
-        	if (i != heights.length)
+        	if (i != heights.length) {
         		stack.offerFirst(new int[] {heights[i], start});
+			}
         }
         return res;
     }
