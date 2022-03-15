@@ -1,3 +1,3 @@
-Repository for all my LeetCode answers
+Repository for all my LeetCode answers:
 
 https://seanprashad.com/leetcode-patterns/
